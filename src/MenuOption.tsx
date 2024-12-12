@@ -1,5 +1,3 @@
-import zoomIn from "./assets/zoom-in.svg";
-
 export function MenuOption() {
   return (
     <svg

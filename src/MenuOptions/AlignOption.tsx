@@ -1,4 +1,4 @@
-import { SetStateAction, useSetAtom } from "jotai";
+import { useSetAtom } from "jotai";
 import { SidebarButton } from "./SidebarButton";
 import { alignmentAtom } from "../atoms";
 
