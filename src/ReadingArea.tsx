@@ -132,7 +132,6 @@ export function ReadingArea() {
       >
         <ScrollSyncPane>
           <textarea
-            //className="p-[3rem] text-center bg-BG3 transition-all scrollbar-hide col-start-1 row-start-1 resize-none selection:bg-[rgb(127,127,127)] text-typo5 break-words border-none focus:outline-none focus:ring-0 overflow-y-scroll"
             className={classesTextArea}
             id="readingTextArea"
             value={textareaText}
@@ -143,8 +142,6 @@ export function ReadingArea() {
         <ScrollSyncPane>
           <div
             id="readingJSX"
-            //key={"reader" + currentReaderWidth}
-            //className="p-[3rem] text-center transition-all text-FG1 scrollbar-hide col-start-1 row-start-1 text-typo5 pointer-events-none break-words border-none focus:outline-none focus:ring-0 overflow-y-scroll"
             className={classesJSXText}
           >
             {boldedJSXtext}
@@ -158,12 +155,10 @@ export function ReadingArea() {
                 setInitialClickTriggered(true);
               }}
               className={classesTutorialText}
-              //className="bg-BG3 flex flex-col break-words items-center justify-center pointer-events-none col-start-1 row-start-1 overflow-y-scroll scrollbar-hide "
             >
-              {/* <div className=" font-TenorSans text-[3rem] font-light " >Welcome</div> */}
               Copy your text from elsewhere and paste it here. Or just type. {"\n"}
               {"\n"} The beginning of each word will be bolded. {"\n"}
-              {"\n"} Mouse over the sides to access various settings and the bells and whistles. {"\n"}
+              {"\n"} Mouse over the sides to access various settings as well as the bells and whistles. {"\n"}
               {"\n"} Use your mousewhell to scroll up and down. If you lack one, mouse over the bottom of the reader and use the navigation arrows.{" "}
               {"\n"}
               {"\n"} Fullscreen for the best experience: {"\n"}F-11 on Windows, COMMAND+SHIFT+F on Mac
